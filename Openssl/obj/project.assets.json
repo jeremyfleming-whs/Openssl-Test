@@ -1,0 +1,216 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "openssl-vc141-native/3.0.0": {
+        "type": "package"
+      }
+    }
+  },
+  "libraries": {
+    "openssl-vc141-native/3.0.0": {
+      "sha512": "BZV9aLsO4BhXWqYsdWOIaYeH7mlkgXERdkJ5BlX9qXoictB0/MqZ997dxAzEpgmzRvpVVHprlFlDwWBi2KcijA==",
+      "type": "package",
+      "path": "openssl-vc141-native/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/native/bin/x64/libcrypto-1_1-x64.dll",
+        "build/native/bin/x64/libcrypto-1_1-x64.pdb",
+        "build/native/bin/x64/libssl-1_1-x64.dll",
+        "build/native/bin/x64/libssl-1_1-x64.pdb",
+        "build/native/bin/x86/libcrypto-1_1.dll",
+        "build/native/bin/x86/libcrypto-1_1.pdb",
+        "build/native/bin/x86/libssl-1_1.dll",
+        "build/native/bin/x86/libssl-1_1.pdb",
+        "build/native/include/openssl/__DECC_INCLUDE_EPILOGUE.H",
+        "build/native/include/openssl/__DECC_INCLUDE_PROLOGUE.H",
+        "build/native/include/openssl/aes.h",
+        "build/native/include/openssl/asn1.h",
+        "build/native/include/openssl/asn1_mac.h",
+        "build/native/include/openssl/asn1err.h",
+        "build/native/include/openssl/asn1t.h",
+        "build/native/include/openssl/async.h",
+        "build/native/include/openssl/asyncerr.h",
+        "build/native/include/openssl/bio.h",
+        "build/native/include/openssl/bioerr.h",
+        "build/native/include/openssl/blowfish.h",
+        "build/native/include/openssl/bn.h",
+        "build/native/include/openssl/bnerr.h",
+        "build/native/include/openssl/buffer.h",
+        "build/native/include/openssl/buffererr.h",
+        "build/native/include/openssl/camellia.h",
+        "build/native/include/openssl/cast.h",
+        "build/native/include/openssl/cmac.h",
+        "build/native/include/openssl/cms.h",
+        "build/native/include/openssl/cmserr.h",
+        "build/native/include/openssl/comp.h",
+        "build/native/include/openssl/comperr.h",
+        "build/native/include/openssl/conf.h",
+        "build/native/include/openssl/conf_api.h",
+        "build/native/include/openssl/conferr.h",
+        "build/native/include/openssl/crypto.h",
+        "build/native/include/openssl/cryptoerr.h",
+        "build/native/include/openssl/ct.h",
+        "build/native/include/openssl/cterr.h",
+        "build/native/include/openssl/des.h",
+        "build/native/include/openssl/dh.h",
+        "build/native/include/openssl/dherr.h",
+        "build/native/include/openssl/dsa.h",
+        "build/native/include/openssl/dsaerr.h",
+        "build/native/include/openssl/dtls1.h",
+        "build/native/include/openssl/e_os2.h",
+        "build/native/include/openssl/ebcdic.h",
+        "build/native/include/openssl/ec.h",
+        "build/native/include/openssl/ecdh.h",
+        "build/native/include/openssl/ecdsa.h",
+        "build/native/include/openssl/ecerr.h",
+        "build/native/include/openssl/engine.h",
+        "build/native/include/openssl/engineerr.h",
+        "build/native/include/openssl/err.h",
+        "build/native/include/openssl/evp.h",
+        "build/native/include/openssl/evperr.h",
+        "build/native/include/openssl/hmac.h",
+        "build/native/include/openssl/idea.h",
+        "build/native/include/openssl/kdf.h",
+        "build/native/include/openssl/kdferr.h",
+        "build/native/include/openssl/lhash.h",
+        "build/native/include/openssl/md2.h",
+        "build/native/include/openssl/md4.h",
+        "build/native/include/openssl/md5.h",
+        "build/native/include/openssl/mdc2.h",
+        "build/native/include/openssl/modes.h",
+        "build/native/include/openssl/obj_mac.h",
+        "build/native/include/openssl/objects.h",
+        "build/native/include/openssl/objectserr.h",
+        "build/native/include/openssl/ocsp.h",
+        "build/native/include/openssl/ocsperr.h",
+        "build/native/include/openssl/opensslconf.h",
+        "build/native/include/openssl/opensslconf.h.in",
+        "build/native/include/openssl/opensslv.h",
+        "build/native/include/openssl/ossl_typ.h",
+        "build/native/include/openssl/pem.h",
+        "build/native/include/openssl/pem2.h",
+        "build/native/include/openssl/pemerr.h",
+        "build/native/include/openssl/pkcs12.h",
+        "build/native/include/openssl/pkcs12err.h",
+        "build/native/include/openssl/pkcs7.h",
+        "build/native/include/openssl/pkcs7err.h",
+        "build/native/include/openssl/rand.h",
+        "build/native/include/openssl/rand_drbg.h",
+        "build/native/include/openssl/randerr.h",
+        "build/native/include/openssl/rc2.h",
+        "build/native/include/openssl/rc4.h",
+        "build/native/include/openssl/rc5.h",
+        "build/native/include/openssl/ripemd.h",
+        "build/native/include/openssl/rsa.h",
+        "build/native/include/openssl/rsaerr.h",
+        "build/native/include/openssl/safestack.h",
+        "build/native/include/openssl/seed.h",
+        "build/native/include/openssl/sha.h",
+        "build/native/include/openssl/srp.h",
+        "build/native/include/openssl/srtp.h",
+        "build/native/include/openssl/ssl.h",
+        "build/native/include/openssl/ssl2.h",
+        "build/native/include/openssl/ssl3.h",
+        "build/native/include/openssl/sslerr.h",
+        "build/native/include/openssl/stack.h",
+        "build/native/include/openssl/store.h",
+        "build/native/include/openssl/storeerr.h",
+        "build/native/include/openssl/symhacks.h",
+        "build/native/include/openssl/tls1.h",
+        "build/native/include/openssl/ts.h",
+        "build/native/include/openssl/tserr.h",
+        "build/native/include/openssl/txt_db.h",
+        "build/native/include/openssl/ui.h",
+        "build/native/include/openssl/uierr.h",
+        "build/native/include/openssl/whrlpool.h",
+        "build/native/include/openssl/x509.h",
+        "build/native/include/openssl/x509_vfy.h",
+        "build/native/include/openssl/x509err.h",
+        "build/native/include/openssl/x509v3.h",
+        "build/native/include/openssl/x509v3err.h",
+        "build/native/lib/x64/libcrypto.lib",
+        "build/native/lib/x64/libcrypto_static.lib",
+        "build/native/lib/x64/libssl.lib",
+        "build/native/lib/x64/libssl_static.lib",
+        "build/native/lib/x86/libcrypto.lib",
+        "build/native/lib/x86/libcrypto_static.lib",
+        "build/native/lib/x86/libssl.lib",
+        "build/native/lib/x86/libssl_static.lib",
+        "build/native/openssl-vc141-native.props",
+        "build/native/openssl-vc141-native.targets",
+        "images/icon.png",
+        "openssl-vc141-native.3.0.0.nupkg.sha512",
+        "openssl-vc141-native.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "openssl-vc141-native >= 3.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/fleming/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/fleming/RiderProjects/Openssl/Openssl/Openssl.csproj",
+      "projectName": "Openssl",
+      "projectPath": "/Users/fleming/RiderProjects/Openssl/Openssl/Openssl.csproj",
+      "packagesPath": "/Users/fleming/.nuget/packages/",
+      "outputPath": "/Users/fleming/RiderProjects/Openssl/Openssl/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/fleming/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "openssl-vc141-native": {
+            "target": "Package",
+            "version": "[3.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/3.1.424/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

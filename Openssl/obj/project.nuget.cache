@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "op4sOHazYZmCqxJYbBtsMoMGvN3zMm4WQ8ZlgQDuXr0dyo126Skmi4YU5o8O/RxqF2BN4l5kE3P9cSjNAbGWiw==",
+  "success": true,
+  "projectFilePath": "/Users/fleming/RiderProjects/Openssl/Openssl/Openssl.csproj",
+  "expectedPackageFiles": [
+    "/Users/fleming/.nuget/packages/openssl-vc141-native/3.0.0/openssl-vc141-native.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
